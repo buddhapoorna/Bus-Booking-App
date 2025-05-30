@@ -1,0 +1,139 @@
+
+
+.search-container {
+
+ margin-top: 500px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  
+  
+}
+
+.hero-section {
+ 
+  position: relative;
+  height: 140vh;
+  background: url('https://static.abhibus.com/web/media/backgrounds/search.20230915.webp') no-repeat center center/cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.search-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 20px;
+ 
+}
+
+.search-container button {
+ margin-right: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+  background:#dd1c1a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.below-section {
+ 
+ font-size:x-large;
+  text-align: center;
+  margin-top:0%;
+  
+}
+
+.below-section h2 {
+  color:black;
+  text-align: left;
+  padding-left: 160px;
+}
+
+.below-section p {
+  color: #666;
+  text-align: left;
+  padding-left: 160px;
+}
+
+
+
+.discount-container {
+  display:flex;
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+.discount-box {
+  background:#FFF2F2;
+  color:black;
+  padding: 5px 8px;
+ 
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.home-img{
+ height: 20vh;
+}
+
+
+
+.discount-box:hover {
+  transform: scale(1.1);
+  background:#d6cccc;
+}
+
+.transport-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.transport-box {
+  background:white;
+
+  color: black;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.transport-box:hover {
+  transform: scale(1.1);
+  background:white;
+}
+
+
+.transport-img{
+  height: 20vh;
+  border-radius: 200px;
+}

@@ -1,0 +1,42 @@
+
+.app {
+  /*background-image: url('https://t3.ftcdn.net/jpg/05/70/65/04/360_F_570650424_yUIcZ8w0QHRe5aXwwk48LjnJ7u326Kj4.jpg'); /* Path to the image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:80vh;
+  padding-top: 420px; 
+ 
+}
+
+.search-container {
+
+  display: fixed;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: white;
+  position: sticky; /* ✅ Keeps search bar visible at the top */
+  top: 80px; /* Adjust based on navbar height */
+  z-index: 999;
+ 
+}
+
+.no-buses-message {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.help-container {
+    background-color: #f8f9fa;
+    width: 100%;
+  }
+  
+  .help-container .btn {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+  
+  .help-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .help-container .accordion-button {
+    background-color:#ed3c39;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .help-container .accordion-button:not(.collapsed) {
+    background-color:#c33432;
+  }
+  
+  .help-container .accordion-body {
+    background-color: #f1f1f1;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color:#dd1c1a;
+    margin-bottom: 30px;
+  }
+  

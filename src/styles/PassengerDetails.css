@@ -1,0 +1,40 @@
+.passenger-details {
+    text-align: center;
+  }
+  
+  .passenger-input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  .confirm-btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+/* Back Button */
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5733;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #d9432a;
+}

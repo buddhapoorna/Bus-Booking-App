@@ -1,0 +1,118 @@
+/* Container */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  @media(min-width: 768px) {
+    .contact-container {
+      flex-direction: row;
+    }
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Feedback Form */
+  .feedback-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    color: #4a4a4a;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .input:focus {
+    border-color:#dd1c1a;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color:#dd1c1a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color:#ee5350;
+  }
+  
+  
+  .social-links {
+    text-align: center;
+    max-width: 300px;
+    margin-left: 200px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  
+  .social-icon {
+    font-size: 2.5rem;
+    color: #4b5563;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #dd1c1a;
+  }
+  
+  .social-icon.facebook:hover {
+    color: #1877f2;
+  }
+  
+  .social-icon.twitter:hover {
+    color: #1d9bf0;
+  }
+  
+  .social-icon.instagram:hover {
+    color: #d64e12;
+  }
+  
+  .social-icon.linkedin:hover {
+    color: #0a66c2;
+  }
+  
